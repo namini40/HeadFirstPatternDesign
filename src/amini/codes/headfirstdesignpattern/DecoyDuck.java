@@ -1,9 +1,10 @@
 package amini.codes.headfirstdesignpattern;
 
-public class RedHeadDuck extends Duck{
+public class DecoyDuck extends Duck {
+
     @Override
     void quack() {
-
+        // overridden to squeak
     }
 
     @Override
@@ -13,12 +14,11 @@ public class RedHeadDuck extends Duck{
 
     @Override
     void display() {
-        //looks like redhead
+        // looks like a rubber duck
     }
 
-    // all ducks implement it
     @Override
     void fly() {
-
+        // overridden but does not do anything!
     }
 }

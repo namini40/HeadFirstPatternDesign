@@ -15,4 +15,10 @@ public class MallardDuck extends Duck{
     void display() {
         // looks like mallard
     }
+
+    // all ducks implement it
+    @Override
+    void fly() {
+
+    }
 }
