@@ -1,8 +1,8 @@
 package amini.codes.headfirstdesignpattern;
 
-public class RubberDuck extends Duck{
+public class RubberDuck extends Duck implements Quackable{
     @Override
-    void quack() {
+    public void quack() {
         // overridden to squeak
     }
 
@@ -16,8 +16,5 @@ public class RubberDuck extends Duck{
         // looks like a rubber duck
     }
 
-    @Override
-    void fly() {
-        // overridden but does not do anything!
-    }
+
 }

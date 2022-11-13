@@ -1,8 +1,8 @@
 package amini.codes.headfirstdesignpattern;
 
-public class MallardDuck extends Duck{
+public class MallardDuck extends Duck implements Quackable,Flyable{
     @Override
-    void quack() {
+    public void quack() {
 
     }
 
@@ -16,9 +16,9 @@ public class MallardDuck extends Duck{
         // looks like mallard
     }
 
-    // all ducks implement it
+
     @Override
-    void fly() {
+    public void fly() {
 
     }
 }
