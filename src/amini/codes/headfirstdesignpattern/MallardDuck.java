@@ -1,24 +1,14 @@
 package amini.codes.headfirstdesignpattern;
 
-public class MallardDuck extends Duck implements Quackable,Flyable{
-    @Override
-    public void quack() {
+import amini.codes.headfirstdesignpattern.behavior.FlyWithWings;
+import amini.codes.headfirstdesignpattern.behavior.Quack;
 
-    }
+public class MallardDuck extends Duck  {
 
-    @Override
-    void swim() {
-
-    }
-
-    @Override
-    void display() {
-        // looks like mallard
+    public MallardDuck() {
+        this.flyBehavior = new FlyWithWings();
+        this.quackBehavior = new Quack();
     }
 
 
-    @Override
-    public void fly() {
-
-    }
 }

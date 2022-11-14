@@ -1,20 +1,11 @@
 package amini.codes.headfirstdesignpattern;
 
-public class RubberDuck extends Duck implements Quackable{
-    @Override
-    public void quack() {
-        // overridden to squeak
+import amini.codes.headfirstdesignpattern.behavior.FlyNoWay;
+import amini.codes.headfirstdesignpattern.behavior.MuteQuack;
+
+public class RubberDuck extends Duck{
+    public RubberDuck() {
+        this.flyBehavior = new FlyNoWay();
+        this.quackBehavior = new MuteQuack();
     }
-
-    @Override
-    void swim() {
-
-    }
-
-    @Override
-    void display() {
-        // looks like a rubber duck
-    }
-
-
 }

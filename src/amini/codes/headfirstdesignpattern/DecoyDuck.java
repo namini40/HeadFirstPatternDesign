@@ -1,15 +1,11 @@
 package amini.codes.headfirstdesignpattern;
 
+import amini.codes.headfirstdesignpattern.behavior.FlyNoWay;
+import amini.codes.headfirstdesignpattern.behavior.MuteQuack;
+
 public class DecoyDuck extends Duck {
-    @Override
-    void swim() {
-
+    public DecoyDuck() {
+        this.flyBehavior = new FlyNoWay();
+        this.quackBehavior = new MuteQuack();
     }
-
-    @Override
-    void display() {
-        // looks like a rubber duck
-    }
-
-
 }
