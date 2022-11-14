@@ -1,4 +1,4 @@
-package amini.codes.headfirstdesignpattern;
+package amini.codes.headfirstdesignpattern.ducks;
 
 import amini.codes.headfirstdesignpattern.behavior.FlyBehavior;
 import amini.codes.headfirstdesignpattern.behavior.QuackBehavior;
@@ -28,5 +28,13 @@ public abstract class Duck {
 
     public void performFly() {
         flyBehavior.fly();
+    }
+
+    public void setFlyBehavior(FlyBehavior fb) {
+        this.flyBehavior = fb;
+    }
+
+    public void setQuackBehavior(QuackBehavior qb) {
+        this.quackBehavior = qb;
     }
 }
