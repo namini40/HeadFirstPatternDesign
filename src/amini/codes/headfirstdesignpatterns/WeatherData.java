@@ -2,13 +2,13 @@ package amini.codes.headfirstdesignpatterns;
 
 import java.util.ArrayList;
 
-public class WeatherDara implements Subject {
+public class WeatherData implements Subject {
     private ArrayList observers;
     private float temperature = getTemperature();
     private float humidity = getHumidity();
     private float pressure = getPressure();
 
-    public WeatherDara(){
+    public WeatherData(){
         observers = new ArrayList<>();
     }
 
