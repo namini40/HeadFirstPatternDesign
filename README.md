@@ -3,4 +3,9 @@
 - identify the aspects that vary and separate them from what stays the same.
 - take the creation code and move it out into another object that is only to be concerned with creating...
 - Factory handles the details of object creation.
-- allow the subclasses to decide how to behave
+- allow the subclasses to decide how to behave.
+- a factory method handles object creation and encapsulates it in a subclass. this decouples the client code in the sperclass from the object creation code in the subclass.
+- a factory method is `abstract` so the subclasses are counted on to handle object creation.
+- a factory method `return`s a `Product` that is typically used within methods defined in the subclass.
+- a factory method isolates the client (the code in the superclass, like `orderPizza`) from knowing what kind of concrete `Product` is actually created.
+- a factory method may be parameterized (or not) to select among several variations of products.

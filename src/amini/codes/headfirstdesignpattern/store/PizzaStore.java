@@ -27,6 +27,6 @@ public abstract class PizzaStore {
     }
 
     // the factory object moves to this method
-    abstract Pizza createPizza(String type);
+    protected abstract Pizza createPizza(String type);
 
 }
