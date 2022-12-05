@@ -1,5 +1,7 @@
 package amini.codes.headfirstdesignpattern;
 
+import amini.codes.headfirstdesignpattern.factory.SimplePizzaFactory;
+
 public class PizzaStore {
     SimplePizzaFactory factory;
 
