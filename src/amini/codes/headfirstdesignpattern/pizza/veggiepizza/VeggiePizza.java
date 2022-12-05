@@ -1,17 +1,17 @@
-package amini.codes.headfirstdesignpattern.pizza;
+package amini.codes.headfirstdesignpattern.pizza.veggiepizza;
 
 import amini.codes.headfirstdesignpattern.Pizza;
 
-public class CheesePizza extends Pizza {
+public class VeggiePizza extends Pizza {
 
     @Override
-    public void prepare() {
+    public void bake() {
         // TODO Auto-generated method stub
         
     }
 
     @Override
-    public void bake() {
+    public void box() {
         // TODO Auto-generated method stub
         
     }
@@ -23,9 +23,11 @@ public class CheesePizza extends Pizza {
     }
 
     @Override
-    public void box() {
+    public void prepare() {
         // TODO Auto-generated method stub
         
     }
+
+     
 
 }

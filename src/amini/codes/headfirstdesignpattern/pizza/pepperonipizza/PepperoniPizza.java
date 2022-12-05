@@ -1,4 +1,4 @@
-package amini.codes.headfirstdesignpattern.pizza;
+package amini.codes.headfirstdesignpattern.pizza.pepperonipizza;
 
 import amini.codes.headfirstdesignpattern.Pizza;
 

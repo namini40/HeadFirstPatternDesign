@@ -1,23 +1,25 @@
 package amini.codes.headfirstdesignpattern.factory;
 
-import amini.codes.headfirstdesignpattern.pizza.*;
+import amini.codes.headfirstdesignpattern.pizza.cheesepizza.ChicagoStyleCheesePizza;
+import amini.codes.headfirstdesignpattern.pizza.pepperonipizza.ChicagoStylePepperoniPizza;
+import amini.codes.headfirstdesignpattern.pizza.clampizza.ChicagoStyleClamPizza;
+import amini.codes.headfirstdesignpattern.pizza.veggiepizza.ChicagoStyleVeggiePizza;
 import amini.codes.headfirstdesignpattern.Pizza;
 
-public class ChicagoPizzaFactory extends SimplePizzaFactory{
-
+public class ChicagoPizzaFactory extends SimplePizzaFactory {
 
     // create Chicago style izza
     @Override
     public Pizza createPizza(String type) {
         Pizza pizza = null;
         if (type.equals("cheese")) {
-            pizza = new CheesePizza();
+            pizza = new ChicagoStyleCheesePizza();
         } else if (type.equals("pepperoni")) {
-            pizza = new PepperoniPizza();
+            pizza = new ChicagoStylePepperoniPizza();
         } else if (type.equals("clam")) {
-            pizza = new ClamPizza();
+            pizza = new ChicagoStyleClamPizza();
         } else if (type.equals("veggie")) {
-            pizza = new VeggiePizza();
+            pizza = new ChicagoStyleVeggiePizza();
         }
 
         return pizza;

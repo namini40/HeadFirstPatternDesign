@@ -2,6 +2,10 @@ package amini.codes.headfirstdesignpattern.factory;
 
 import amini.codes.headfirstdesignpattern.Pizza;
 import amini.codes.headfirstdesignpattern.pizza.*;
+import amini.codes.headfirstdesignpattern.pizza.cheesepizza.CheesePizza;
+import amini.codes.headfirstdesignpattern.pizza.clampizza.ClamPizza;
+import amini.codes.headfirstdesignpattern.pizza.pepperonipizza.PepperoniPizza;
+import amini.codes.headfirstdesignpattern.pizza.veggiepizza.VeggiePizza;
 
 public class SimplePizzaFactory {
 

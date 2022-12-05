@@ -1,9 +1,9 @@
 package amini.codes.headfirstdesignpattern;
 
-import amini.codes.headfirstdesignpattern.pizza.CheesePizza;
-import amini.codes.headfirstdesignpattern.pizza.ClamPizza;
-import amini.codes.headfirstdesignpattern.pizza.PepperoniPizza;
-import amini.codes.headfirstdesignpattern.pizza.VeggiePizza;
+import amini.codes.headfirstdesignpattern.pizza.cheesepizza.CheesePizza;
+import amini.codes.headfirstdesignpattern.pizza.clampizza.ClamPizza;
+import amini.codes.headfirstdesignpattern.pizza.pepperonipizza.PepperoniPizza;
+import amini.codes.headfirstdesignpattern.pizza.veggiepizza.VeggiePizza;
 
 abstract public class Pizza {
 
