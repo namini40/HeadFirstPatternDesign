@@ -3,3 +3,4 @@
 - identify the aspects that vary and separate them from what stays the same.
 - take the creation code and move it out into another object that is only to be concerned with creating...
 - Factory handles the details of object creation.
+- allow the subclasses to decide how to behave

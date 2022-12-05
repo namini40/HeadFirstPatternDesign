@@ -2,6 +2,7 @@ package amini.codes.headfirstdesignpattern;
 
 import amini.codes.headfirstdesignpattern.factory.ChicagoPizzaFactory;
 import amini.codes.headfirstdesignpattern.factory.NYPizzaFactory;
+import amini.codes.headfirstdesignpattern.store.PizzaStore;
 
 public class Run {
     public static void main(String[] args) {
